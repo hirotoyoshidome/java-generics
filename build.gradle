@@ -1,0 +1,29 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'war'
+
+mainClassName = 'SampleStream'
+
+repositories {
+	mavenCentral()
+}
+
+jar{
+	baseName = 'sampleStream-gradle'
+	version = '0.1.0'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies{
+	compile 'org.jsoup:jsoup:1.10.2'
+	compile 'org.apache.poi:poi-ooxml:3.17'
+	compile 'org.apache.poi:poi:3.17'
+	compile 'org.apache.xmlbeans:xmlbeans:2.6.0'
+	compile 'org.seleniumhq.selenium:selenium-java:3.11.0'
+	compile 'com.squareup.okhttp3:okhttp:3.0.0-RC1'
+	
+	
+}

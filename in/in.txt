@@ -1,0 +1,6 @@
+<html:form action="" onsubmit="" enctype="">
+<html:errors />
+<html link page="" onclick="" onmouseout="" onmouseover="" onblur="" onfocus="" >sample1</html:link>
+<html:link action="" tabindex="">sample2<html:link>
+<html:link href="" title="">
+</html:form>
